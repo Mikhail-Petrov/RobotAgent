@@ -46,14 +46,14 @@ public class Main {
             e.printStackTrace();
         }*/
 //        myAgent.reactOnColor(color);
-//        myAgent.removeFromSS(null, "coordinates", null);
+//        myAgent.removeFromSS(null, "acrossType", null);
 //        myAgent.insertIntoSS("robot", "blockAmount", "3");
 //        myAgent.removeFromSS(null, null, null);
 //        myAgent.insertIntoSS("block0", "commandIs", "stop");
 //        myAgent.insertIntoSS("block1", "commandIs", "stop");
 //        myAgent.removeFromSS(null, null, "1-16");
 //        myAgent.removeFromSS(null, "obstacleInfo", null);
-        myAgent.insertIntoSS("exploreObstacle", "coordinates", "3259; 0");
+        myAgent.insertIntoSS("exploreObstacle", "coordinates", "1244; 0");
         myAgent.insertIntoSS("robot2", "task", "exploreObstacle");
 //        myAgent.insertIntoSS("robot2", "task", "learn");
 //        myAgent.insertIntoSS("goToLocation", "coordinates", "1000; 0");
